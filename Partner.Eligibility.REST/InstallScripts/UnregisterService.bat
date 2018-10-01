@@ -1,0 +1,3 @@
+﻿@echo off
+echo Removing registration of service...
+netsh http del urlacl url=http://+:9123/EligibilityService
